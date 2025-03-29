@@ -1,0 +1,11 @@
+setup.py
+src/connectors/__init__.py
+src/connectors.egg-info/PKG-INFO
+src/connectors.egg-info/SOURCES.txt
+src/connectors.egg-info/dependency_links.txt
+src/connectors.egg-info/requires.txt
+src/connectors.egg-info/top_level.txt
+src/connectors/mongodb/__init__.py
+src/connectors/mongodb/mongo_connector.py
+src/connectors/mysql/__init__.py
+src/connectors/mysql/sql_connector.py

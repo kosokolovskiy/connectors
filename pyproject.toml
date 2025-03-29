@@ -1,0 +1,19 @@
+[project]
+name = "connectors"
+version = "0.0.1"
+description = "Database connector module (MySQL, MongoDB)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mysql-connector-python",
+    "requests",
+    "python-dotenv",
+    "configparser",
+    "pandas",
+    "boto3",
+    "pymongo"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

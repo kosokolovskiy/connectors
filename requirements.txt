@@ -1,0 +1,7 @@
+mysql-connector-python
+configparser
+requests
+dotenv
+pymongo
+boto3
+pandas

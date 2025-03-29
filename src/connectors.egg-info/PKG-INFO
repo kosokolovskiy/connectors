@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: connectors
+Version: 0.0.12
+Requires-Dist: mysql-connector-python
+Requires-Dist: requests
+Requires-Dist: dotenv
+Requires-Dist: configparser
+Requires-Dist: pandas
+Requires-Dist: boto3
+Requires-Dist: pymongo
+Dynamic: requires-dist
