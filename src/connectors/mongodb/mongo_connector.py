@@ -2,6 +2,7 @@ import os
 from datetime import datetime
 import pandas as pd
 from pymongo import MongoClient
+import logging
 
 
 class MongoConnector:
@@ -29,6 +30,8 @@ class MongoConnector:
         port = int(os.getenv("MONGO_PORT", 27017))
         username = os.getenv("MONGO_USERNAME", "")
         password = os.getenv("MONGO_PASSWORD", "")
+
+        logging.info(f'MONGO INFO: {host}, {port}, {username}, {password}')
 
         mongo_uri = f"mongodb://{username}:{password}@{host}:{port}/{database_name}"
 
